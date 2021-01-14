@@ -33,3 +33,15 @@ Actor.create([
     known_for: "The Queen's Gambit"
   }
 ])
+
+actors = []
+
+20.times do
+  actors << {
+    first_name: FFaker::Name.first_name,
+    last_name: FFaker::Name.last_name,
+    known_for: FFaker::Movie.title
+  }
+end
+
+Actor.create(actors)
