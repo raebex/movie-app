@@ -1,7 +1,7 @@
 class Api::MoviesController < ApplicationController
 
   def all
-    @movies = Movie.all
+    @movies = Movie.order(:title)
     render "movies.json.jb"
   end
 

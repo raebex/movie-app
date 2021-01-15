@@ -5,7 +5,7 @@ class Api::ActorsController < ApplicationController
   end
 
   def all
-    @actors = Actor.all
+    @actors = Actor.order(:last_name)
     render "all_actors.json.jb"
   end
 end
