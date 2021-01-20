@@ -1,12 +1,12 @@
 class Api::MoviesController < ApplicationController
 
-  def all
+  def index
     @movies = Movie.order(:title)
-    render "movies.json.jb"
+    render "index.json.jb"
   end
 
-  def single_movie
+  def show
     @movie = Movie.find_by(id: params["id"])
-    render "single_movie.json.jb"
+    render "show.json.jb"
   end
 end
