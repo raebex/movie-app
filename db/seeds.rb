@@ -1,62 +1,3 @@
-Actor.create([
-  {
-    first_name: "Angelina",
-    last_name: "Jolie",
-    known_for: "Hackers",
-    gender: "female",
-    age: 38,
-    movie_id: 7
-  },
-  {
-    first_name: "Ali",
-    last_name: "Wong",
-    known_for: "Stand up",
-    gender: "female",
-    age: 34,
-    movie_id: 5
-  },
-  {
-    first_name: "Tom",
-    last_name: "Hanks",
-    known_for: "Forrest Gump",
-    gender: "male",
-    age: 60,
-    movie_id: 3
-  },
-  {
-    first_name: "Jack",
-    last_name: "Nicholson",
-    known_for: "The Shining",
-    gender: "male",
-    age: 78,
-    movie_id: 4
-  },
-  {
-    first_name: "Shelly",
-    last_name: "Duvall",
-    known_for: "The Shining",
-    gender: "female",
-    age: 70,
-    movie_id: 4
-  },
-  {
-    first_name: "Hilary",
-    last_name: "Swank",
-    known_for: "Boys Don't Cry",
-    gender: "female",
-    age: 40,
-    movie_id: 6
-  },
-  {
-    first_name: "Tommy Lee",
-    last_name: "Jones",
-    known_for: "Men in Black",
-    gender: "male",
-    age: 65,
-    movie_id: 6
-  }
-])
-
 User.create([
   {
     name: "Goose",
@@ -153,6 +94,65 @@ Movie.create([
     plot: "Niko tries to sneak out of his girlfriend's apartment before she wakes, but has to tell her that he will not be back that evening because he has some vague things to do. She offers coffee, but he says he is late already. He moves boxes into a new apartment, looking through old photos, and checks his mail. He opens an official letter and realizes he is late for an appointment.",
     director: "Guillermo del Toro",
     english: false
+  }
+])
+
+Actor.create([
+  {
+    first_name: "Angelina",
+    last_name: "Jolie",
+    known_for: "Hackers",
+    gender: "female",
+    age: 38,
+    movie_id: 7
+  },
+  {
+    first_name: "Ali",
+    last_name: "Wong",
+    known_for: "Stand up",
+    gender: "female",
+    age: 34,
+    movie_id: 5
+  },
+  {
+    first_name: "Tom",
+    last_name: "Hanks",
+    known_for: "Forrest Gump",
+    gender: "male",
+    age: 60,
+    movie_id: 3
+  },
+  {
+    first_name: "Jack",
+    last_name: "Nicholson",
+    known_for: "The Shining",
+    gender: "male",
+    age: 78,
+    movie_id: 4
+  },
+  {
+    first_name: "Shelly",
+    last_name: "Duvall",
+    known_for: "The Shining",
+    gender: "female",
+    age: 70,
+    movie_id: 4
+  },
+  {
+    first_name: "Hilary",
+    last_name: "Swank",
+    known_for: "Boys Don't Cry",
+    gender: "female",
+    age: 40,
+    movie_id: 6
+  },
+  {
+    first_name: "Tommy Lee",
+    last_name: "Jones",
+    known_for: "Men in Black",
+    gender: "male",
+    age: 65,
+    movie_id: 6
   }
 ])
 
